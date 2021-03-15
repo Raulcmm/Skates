@@ -1,0 +1,36 @@
+.nav {
+	color: $white;
+	min-height: $medium_height;
+	&__logo {
+		font-size: 2rem;
+		cursor: pointer;
+	}
+	&__content {
+		max-width: $navbar_width;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 2rem;
+	}
+}
+
+.navbar__list {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	color: $white;
+
+	li {
+		margin-right: 3rem;
+		font-size: 1rem;
+		border-bottom: 1px solid transparent;
+		cursor: pointer;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+		&:hover {
+			border-bottom: 1px solid $white;
+		}
+	}
+}

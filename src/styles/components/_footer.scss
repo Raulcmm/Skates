@@ -1,0 +1,41 @@
+.footer {
+	background-color: $blue;
+	color: $white;
+	padding-bottom: 3rem;
+	&__content {
+		max-width: $footer_width;
+		padding: 0 2rem;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		&-left {
+			h3 {
+				font-size: 2rem;
+				font-weight: 500;
+				-webkit-text-stroke: 1px $white;
+				color: $black;
+			}
+			p {
+				font-size: 0.8rem;
+			}
+		}
+		&-right {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
+
+.list-footer {
+	list-style: none;
+	li {
+		font-size: 0.9rem;
+		margin-bottom: 1rem;
+		&:first-of-type {
+			text-transform: uppercase;
+			color: $yellow;
+			font-size: 1.2rem;
+		}
+	}
+}

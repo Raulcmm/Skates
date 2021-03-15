@@ -1,0 +1,41 @@
+.header {
+	background: linear-gradient(to top left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("../../assets/hero_2.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120vh;
+	width: 100%;
+	&__content {
+		display: grid;
+		grid-template-columns: 10% 80% 10%;
+		color: $white;
+		max-width: $navbar_width;
+		margin: auto;
+		padding: 0 2rem;
+		height: 30rem;
+		.navbar__list {
+			flex-direction: column;
+			justify-self: flex-start;
+			li {
+				margin-right: 0;
+				border-bottom: none;
+
+				.ig {
+					width: 45px;
+					height: 30px;
+				}
+				.tw {
+					width: 30px;
+					height: 27px;
+				}
+				&:hover {
+					border-bottom: none;
+				}
+			}
+		}
+		h1 {
+			font-size: 3rem;
+			align-self: center;
+		}
+	}
+}
