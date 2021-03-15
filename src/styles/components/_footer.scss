@@ -32,10 +32,12 @@
 	li {
 		font-size: 0.9rem;
 		margin-bottom: 1rem;
+		cursor: pointer;
 		&:first-of-type {
 			text-transform: uppercase;
 			color: $yellow;
 			font-size: 1.2rem;
+			cursor: default;
 		}
 	}
 }
