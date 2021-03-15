@@ -7,7 +7,7 @@ const Footer = () => {
 				<div className="footer__content-left">
 					<h3> LOGOTIPO</h3>
 					<p>{new Date().getFullYear()} &copy; </p>
-					<a href="https://orcm.vercel.app/about/" target="_blank" rel="noopener" className="visitme">
+					<a href="https://orcm.vercel.app/about/" target="_blank" rel="noreferrer noopener" className="visitme">
 						O. Raúl Camacho M.
 					</a>
 				</div>
